@@ -1,0 +1,173 @@
+*{
+    margin: 0px;
+    padding:0px;
+
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+@font-face {
+    font-family: ALK Life;
+    src: url(alk_life.otf)
+}
+
+@font-face {
+    font-family: DejaVu Sans;
+    src: url(bpg_dejavu_sans.otf);
+}
+  h1, h2, h3 {
+    font-family: ALK Life;
+  }
+  
+header, footer{
+    background-color:  #D9D9D9;
+}
+.header{
+   
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 130px;
+    
+}
+
+.logo{
+    
+}
+
+.nav a:not(.main-page) {
+    font-family: ALK Life;
+    font-size: 24px;
+    font-weight: 400;
+    color: rgba(113, 114, 118, 1);
+
+}
+.main-page{
+    color:rgba(166, 43, 40, 1);
+    font-family: ALK Life;
+    font-size: 24px;
+    font-weight: 400;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width:61.7%;
+    flex-wrap: wrap;
+}
+.backgroundImage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 160px 0px 0px 0px ;
+  width:81.9%;  
+}
+.backgroundImage img{
+    width:100%;
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.title{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    font-family: ALK Life;
+    width:46.75%;
+    margin-bottom: 2.5%;
+    }
+    .description{
+font-family: DejaVu Sans;
+font-size: 32px;
+font-weight: 700;
+line-height: 51px;
+margin-left: 7.5%;
+color: rgba(113, 114, 118, 1);
+
+    }
+    .logoArticle {
+        width:18.8%;
+        height:18.8%;
+    }
+    .article{
+        width: 81.9%;
+        display: flex;
+        flex-direction: column;
+    }
+    .article{
+        margin-top: 160px;
+    }
+    .bookColumn img{
+        margin-bottom:50px;
+    }
+    .author,.bookName{
+        margin-bottom:8px;
+    }
+    .author a{
+        font-family: DejaVu Sans;
+font-size: 24px;
+font-weight: 700;
+color: rgba(113, 114, 118, 1);
+    }
+    .bookName a{
+ font-family: ALK Life;
+font-size: 24px;
+font-weight: 400;
+color: rgba(0, 0, 0, 1);
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+    }
+    .price {
+        font-family: DejaVu Sans;
+        font-size: 24px;
+        font-weight: 700;
+        color: rgba(0, 0, 0, 1);
+        line-height: 39px;
+
+
+    }
+    .footerNav{
+        display:flex;
+        flex-direction: column;
+       align-items: space-between;
+       flex-wrap: wrap;
+    }
+    .footerNav a{
+       color: rgba(0, 0, 0, 1);
+       justify-self: flex-start;
+font-family: ALK Life;
+font-size: 24px;
+font-weight: 400;
+line-height: 30px;
+    }
+    .socmedia{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        width:11.5%;
+        flex-wrap: wrap;
+    }
+    footer{
+        margin-top:160px;
+        display: flex;
+    }
+    .footer{
+        display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+   
+    padding: 50px 130px;
+    width: 90%;
+    }
